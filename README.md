@@ -32,7 +32,9 @@ Then model.sh will run `code/D_solver/CV_model.py` gene by gene and concat each 
 
 `code/D_solver/CV_model.py` will model one gene using EUR+AFR info and only AFR info separately, and under each info, EN model and Lasso model are both trained.
 
-The output of `code/D_solver/CV_model.py` is 
+`code/D_solver/CV_model.py` can draw four scatter plots (EUR+AFR en, EUR+AFR lasso, AFR en, AFR lasso) for each gene, y_hat_test(prediction) vs y_test(observation).
+
+The output of `code/D_solver/CV_model.py` is
 
 ```
 print(gene_name, r2_en_2, spr2_en_2,r2_lasso_2,spr2_lasso_2,r2_en_1, spr2_en_1, r2_lasso_1, spr2_lasso_1)
