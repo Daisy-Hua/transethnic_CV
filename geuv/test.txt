@@ -1,0 +1,1 @@
+Enter the target GENE ID :(e.g. ENSG00000167074.9)

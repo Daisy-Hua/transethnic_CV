@@ -1,0 +1,66 @@
+
+VCFtools - 0.1.17
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf ../GEUVADIS.chr22.PH1PH2_465.IMPFRQFILT_BIALLELIC_PH.annotv2.genotypes.vcf
+	--chr 22
+	--keep eur_genotype.012.indv
+	--012
+	--out HDHD5_genotype/eur_HDHD5_genotype
+	--snps ../target/HDHD5_SNP.txt
+
+Warning: Expected at least 2 parts in INFO entry: ID=AA,Number=1,Type=String,Description="Ancestral Allele, ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/pilot_data/technical/reference/ancestral_alignments/README">
+Warning: Expected at least 2 parts in INFO entry: ID=A_A_CHANGE,Number=.,Type=String,Description="Geuvadis custom annotation array, amino acid change">
+Warning: Expected at least 2 parts in INFO entry: ID=A_A_LENGTH,Number=.,Type=Integer,Description="Geuvadis custom annotation array, number of amino acids in the peptide">
+Warning: Expected at least 2 parts in INFO entry: ID=A_A_POS,Number=.,Type=Integer,Description="Geuvadis custom annotation array, amino acid position in peptide">
+Warning: Expected at least 2 parts in INFO entry: ID=ANNOTATION_CLASS,Number=.,Type=String,Description="Geuvadis custom annotation array, annotation class">
+Warning: Expected at least 2 parts in INFO entry: ID=CELL,Number=.,Type=String,Description="Geuvadis custom annotation array, regulatory annotation cell type">
+Warning: Expected at least 2 parts in INFO entry: ID=CHROM_STATE,Number=.,Type=String,Description="Geuvadis custom annotation array, Encode ChromHMM">
+Warning: Expected at least 2 parts in INFO entry: ID=EXON_NUMBER,Number=.,Type=String,Description="Geuvadis custom annotation array, exon number/total exons">
+Warning: Expected at least 2 parts in INFO entry: ID=GENE_ID,Number=.,Type=String,Description="Geuvadis custom annotation array, Ensembl gene ID">
+Warning: Expected at least 2 parts in INFO entry: ID=GENE_NAME,Number=.,Type=String,Description="Geuvadis custom annotation array, gene name">
+Warning: Expected at least 2 parts in INFO entry: ID=HGVS,Number=.,Type=String,Description="Geuvadis custom annotation array, HGVS identifier for the variant">
+Warning: Expected at least 2 parts in INFO entry: ID=INTRON_NUMBER,Number=.,Type=String,Description="Geuvadis custom annotation array, intron number/total introns">
+Warning: Expected at least 2 parts in INFO entry: ID=MIRNA_MATURE_ID,Number=.,Type=String,Description="Geuvadis custom annotation array, miRBase mature miRNA ID">
+Warning: Expected at least 2 parts in INFO entry: ID=MIRNA_MATURE_NAME,Number=.,Type=String,Description="Geuvadis custom annotation array, miRBase miRNA mature name">
+Warning: Expected at least 2 parts in INFO entry: ID=MIRNA_PRECURSOR_ID,Number=.,Type=String,Description="Geuvadis custom annotation array, miRBase miRNA precursor ID">
+Warning: Expected at least 2 parts in INFO entry: ID=MIRNA_PRECURSOR_NAME,Number=.,Type=String,Description="Geuvadis custom annotation array, miRBase miRNA precursor name">
+Warning: Expected at least 2 parts in INFO entry: ID=MIRNA_STRAND,Number=.,Type=String,Description="Geuvadis custom annotation array, miRBase miRNA strand">
+Warning: Expected at least 2 parts in INFO entry: ID=MIRNA_TARGET,Number=.,Type=String,Description="Geuvadis custom annotation array, miRNA ID of miRNA target sites">
+Warning: Expected at least 2 parts in INFO entry: ID=MIRNA_TARGET_STRAND,Number=.,Type=String,Description="Geuvadis custom annotation array, strand of miRNA target site">
+Warning: Expected at least 2 parts in INFO entry: ID=POLYPHEN,Number=.,Type=String,Description="Geuvadis custom annotation array, polyphen category and score for the amino acid change">
+Warning: Expected at least 2 parts in INFO entry: ID=REG_ANNOTATION,Number=.,Type=String,Description="Geuvadis custom annotation array, Ensembl Regulatory Build AnnotatedFeature">
+Warning: Expected at least 2 parts in INFO entry: ID=SIFT,Number=.,Type=String,Description="Geuvadis custom annotation array, sift category and score for the amino acid change">
+Warning: Expected at least 2 parts in INFO entry: ID=TF_MAT,Number=.,Type=String,Description="Geuvadis custom annotation array, transcription factor matrix">
+Warning: Expected at least 2 parts in INFO entry: ID=TF_PWM_DELTA,Number=.,Type=String,Description="Geuvadis custom annotation array, transcription factor pwm change">
+Warning: Expected at least 2 parts in INFO entry: ID=TF_PWM_INFORM,Number=.,Type=String,Description="Geuvadis custom annotation array, transcription factor pwm information content">
+Warning: Expected at least 2 parts in INFO entry: ID=TF_PWM_POS,Number=.,Type=String,Description="Geuvadis custom annotation array, transcription factor pwm position">
+Warning: Expected at least 2 parts in INFO entry: ID=TRANSFAC,Number=.,Type=String,Description="Geuvadis custom annotation array, transcription factor name">
+Warning: Expected at least 2 parts in INFO entry: ID=TR_BIOTYPE,Number=.,Type=String,Description="Geuvadis custom annotation array, biotype of the transcript">
+Warning: Expected at least 2 parts in INFO entry: ID=TR_ID,Number=.,Type=String,Description="Geuvadis custom annotation array, transcript ID">
+Warning: Expected at least 2 parts in INFO entry: ID=TR_LENGTH,Number=.,Type=String,Description="Geuvadis custom annotation array, transcript length">
+Warning: Expected at least 2 parts in INFO entry: ID=TR_POS,Number=.,Type=String,Description="Geuvadis custom annotation array, position of variant in transcript">
+Warning: Expected at least 2 parts in INFO entry: ID=TR_STRAND,Number=.,Type=String,Description="Geuvadis custom annotation array, transcript strand">
+Warning: Expected at least 2 parts in INFO entry: ID=BP_TO_EXON,Number=.,Type=String,Description="Geuvadis custom annotation array, distance to exon boundary">
+Warning: Expected at least 2 parts in INFO entry: ID=EXON_NUMBER_NEAREST,Number=.,Type=String,Description="Geuvadis custom annotation array, Number of the nearest exon">
+Warning: Expected at least 2 parts in INFO entry: ID=A_A_TO_STOP,Number=.,Type=Integer,Description="Geuvadis custom annotation array, Number of peptides until next downstream stop">
+Warning: Expected at least 2 parts in INFO entry: ID=A_A_TO_START,Number=.,Type=Integer,Description="Geuvadis custom annotation array, next start codon">
+Warning: Expected at least 2 parts in INFO entry: ID=NMD,Number=.,Type=String,Description="Geuvadis custom annotation array, If the transcript is predicted to undergo NMD">
+Warning: Expected at least 2 parts in INFO entry: ID=MAINTAIN_FRAME,Number=.,Type=String,Description="Geuvadis custom annotation array, If exon skipping maintains frame">
+Warning: Expected at least 2 parts in INFO entry: ID=A_A_LENGTH_OLD_NEW,Number=.,Type=String,Description="Geuvadis custom annotation array, Original peptide length _ new peptide length">
+Warning: Expected at least 2 parts in INFO entry: ID=ANNOTATION_SUBCLASS,Number=.,Type=String,Description="Geuvadis custom annotation array, Annotation subtype">
+Warning: Expected at least 2 parts in INFO entry: ID=SEVERE_IMPACT,Number=.,Type=String,Description="Geuvadis custom annotation, the most severe annotation class">
+Warning: Expected at least 2 parts in INFO entry: ID=SEVERE_GENE,Number=.,Type=String,Description="Geuvadis custom annotation, gene of the most severe annotation">
+Warning: Expected at least 2 parts in INFO entry: ID=GENE_TRCOUNT_TOTAL,Number=.,Type=String,Description="Geuvadis custom annotation, number of transcripts in gene of the most severe annotation class">
+Warning: Expected at least 2 parts in INFO entry: ID=GENE_TRCOUNT_AFFECTED,Number=.,Type=String,Description="Geuvadis custom annotation, number of transcripts in gene that are affected by the most severe annotation class">
+Warning: Expected at least 2 parts in INFO entry: ID=LOF,Number=.,Type=String,Description="Geuvadis custom annotation, HC|LC for low/high confidence of the LOF call (high confidence if there are no lof_flags">
+Warning: Expected at least 2 parts in INFO entry: ID=LOF_FLAG,Number=.,Type=String,Description="Geuvadis custom annotation, LOF warning flags">
+Warning: Expected at least 2 parts in INFO entry: ID=ALLELE,Number=.,Type=String,Description="Geuvadis custom annotation, the annotated allele">
+Warning: Expected at least 2 parts in INFO entry: ID=DAF_GLOBAL,Number=.,Type=String,Description="Geuvadis custom annotation, global derived allele frequency in 1000g Phase1 data">
+Warning: Expected at least 2 parts in INFO entry: ID=GERP,Number=.,Type=String,Description="Geuvadis custom annotation, mammalian GERP score">
+Keeping individuals in 'keep' list
+After filtering, kept 373 out of 465 Individuals
+Writing 012 matrix files ... Done.
+After filtering, kept 24 out of a possible 493859 Sites
+Run Time = 2452.00 seconds
